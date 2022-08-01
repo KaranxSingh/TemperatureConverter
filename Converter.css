@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(78, 38, 106);
+    padding: 250px 0px 0px 640px;
+}
+
+#thermoSvg{
+    height: 26px;
+    width: 30px;
+    color: aliceblue;
+}
+
+#container{
+    width: 30%;
+    margin-left: 5px; 
+    color: aliceblue;
+}
+
+.input-div{
+    display: flex;
+}
+
+.inp{
+    height: 25px;
+    font-size: 14px;
+    font-weight:600;
+    text-align: center;
+}
+/* it is used to hide input spinner's */
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+  
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+
+#cel {
+    margin-top: 16px ;
+    margin-left: 50px;
+}
+#fah {
+    margin-top: 14px ;
+    margin-left: 20px;
+}
